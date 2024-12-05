@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите предмет"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить" />
+
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сортировать" />
+
+    <TextView
+        android:id="@+id/sortedList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Список: "
+        android:textSize="16sp" />
+
+</LinearLayout>
